@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: startingpoint
+name: vlm-ublue-os-laptop
 # description will be included in the image's metadata
-description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
+description: uBlue-based image for user valmar (vlm) - laptop version
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
