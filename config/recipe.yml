@@ -121,6 +121,11 @@ modules:
         - org.telegram.desktop
         - us.zoom.Zoom
 
+  - type: systemd
+    system:
+      enabled:
+        - tailscaled.service
+
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
