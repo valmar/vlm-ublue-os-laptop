@@ -54,6 +54,73 @@ modules:
         # - Celluloid: io.github.celluloid_player.Celluloid
         # - Krita: org.kde.krita
 
+  - type: default-flatpaks
+    system:
+      # If no repo information is specified, Flathub will be used by default
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub"
+      install:
+        - com.bitwarden.desktop
+        - com.calibre_ebook.calibre
+        - com.github.jeromerobert.pdfarranger
+        - com.github.johnfactotum.Foliate
+        - com.github.tchx84.Flatseal
+        - com.github.zocker_160.SyncThingy
+        - com.google.Chrome
+        - com.logseq.Logseq
+        - com.makemkv.MakeMKV
+        - com.mastermindzh.tidal-hifi
+        - com.mattjakeman.ExtensionManager
+        - com.microsoft.Edge
+        - com.raggesilver.BlackBox
+        - com.skype.Client
+        - com.slack.Slack
+        - com.tutanota.Tutanota
+        - com.visualstudio.code
+        - com.vivaldi.Vivaldi
+        - de.haeckerfelix.Shortwave
+        - io.bassi.Amberol
+        - io.github.celluloid_player.Celluloid
+        - io.github.dweymouth.supersonic
+        - io.github.flattool.Warehouse
+        - io.github.realmazharhussain.GdmSettings
+        - io.gitlab.news_flash.NewsFlash
+        - io.podman_desktop.PodmanDesktop
+        - net.cozic.joplin_desktop
+        - net.mullvad.MullvadBrowser
+        - org.bunkus.mkvtoolnix-gui
+        - org.fedoraproject.MediaWriter
+        - org.gnome.baobab
+        - org.gnome.Boxes
+        - org.gnome.Calculator
+        - org.gnome.Calendar
+        - org.gnome.Characters
+        - org.gnome.Cheese
+        - org.gnome.clocks
+        - org.gnome.Connections
+        - org.gnome.Contacts
+        - org.gnome.Epiphany
+        - org.gnome.Evince
+        - org.gnome.Evolution
+        - org.gnome.Extensions
+        - org.gnome.font-viewer
+        - org.gnome.Geary
+        - org.gnome.gitlab.somas.Apostrophe
+        - org.gnome.Logs
+        - org.gnome.Loupe
+        - org.gnome.Maps
+        - org.gnome.NautilusPreviewer
+        - org.gnome.TextEditor
+        - org.gnome.Weather
+        - org.libreoffice.LibreOffice
+        - org.mozilla.firefox
+        - org.mozilla.Thunderbird
+        - org.nickvision.tagger
+        - org.signal.Signal
+        - org.telegram.desktop
+        - us.zoom.Zoom
+
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
