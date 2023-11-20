@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: valmar/vlm-ublue-os-laptop
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: startingpoint
+      - label: vlm-ublue-os-laptop
